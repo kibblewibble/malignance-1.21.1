@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "malignance",
+	"version": "${version}",
+	"name": "Malignance",
+	"description": "Idk if this'll be finished ever lol",
+	"authors": [
+		"kibble_wibble"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/organization/team-cerulean",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/malignance/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.teamcerulean.malignance.Malignance"
+		],
+		"fabric-datagen": [
+			"com.teamcerulean.malignance.MalignanceDataGenerator"
+		],
+		"client": [
+			"com.teamcerulean.malignance.MalignanceClient"
+        ]
+	},
+	"mixins": [
+		"malignance.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
