@@ -2,5 +2,7 @@
   "item.malignance.cerulean_dust":"Cerulean Dust",
   "item.malignance.stellar_essence": "Stellar Essence",
   "item.malignance.fragmented_dust": "Fragmented Dust",
-  "item.malignance.bundle_of_dust": "Bundle of Dust"
+  "item.malignance.bundle_of_dust": "Bundle of Dust",
+
+  "malignance_items": "Malignance"
 }

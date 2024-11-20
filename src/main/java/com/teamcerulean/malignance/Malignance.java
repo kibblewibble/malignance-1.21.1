@@ -1,6 +1,7 @@
 package com.teamcerulean.malignance;
 
 import com.teamcerulean.malignance.block.ModBlocks;
+import com.teamcerulean.malignance.item.ModItemGroups;
 import com.teamcerulean.malignance.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,6 +18,7 @@ public class Malignance implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
