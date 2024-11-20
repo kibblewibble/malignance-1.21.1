@@ -9,7 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item CERULEAN_DUST = registerItem("cerulean_dust", new Item(new Item.Settings()));
+    public static final Item CERULEAN_DUST = registerItem("cerulean_dust", new Item(new Item.Settings().food(ModFoodComponents.CERULEAN_DUST)));
     public static final Item FRAGMENTED_DUST = registerItem("fragmented_dust", new Item(new Item.Settings()));
     public static final Item STELLAR_ESSENCE = registerItem("stellar_essence", new Item(new Item.Settings()));
     public static final Item BUNDLE_OF_DUST = registerItem("bundle_of_dust", new Item(new Item.Settings()));
