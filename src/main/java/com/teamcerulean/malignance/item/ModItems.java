@@ -14,11 +14,11 @@ public class ModItems {
     public static final Item STELLAR_ESSENCE = registerItem("stellar_essence", new Item(new Item.Settings()));
     public static final Item BUNDLE_OF_DUST = registerItem("bundle_of_dust", new Item(new Item.Settings()));
 
+    //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-//
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Malignance.MOD_ID, name), item);
 }
-
     public static void registerModItems() {
         Malignance.LOGGER.info("Registering Mod Items for " + Malignance.MOD_ID);
 
