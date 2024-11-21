@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "malignance:block/block_of_cerulean_top",
+    "side": "malignance:block/block_of_cerulean_side"
+  }
+}

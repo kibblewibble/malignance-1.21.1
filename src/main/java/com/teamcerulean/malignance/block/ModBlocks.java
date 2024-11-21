@@ -19,6 +19,12 @@ public class ModBlocks {
                     .requiresTool()
                     .strength(3.0F, 6.0F)
                     .sounds(BlockSoundGroup.METAL)));
+    public static final Block BLOCK_OF_CERULEAN = registerBlock("block_of_cerulean",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.LIGHT_BLUE)
+                    .requiresTool()
+                    .strength(30.0F, 1200.0F)
+                    .sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
     //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-//
 
