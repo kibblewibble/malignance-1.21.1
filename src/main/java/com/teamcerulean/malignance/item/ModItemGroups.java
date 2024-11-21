@@ -1,6 +1,7 @@
 package com.teamcerulean.malignance.item;
 
 import com.teamcerulean.malignance.Malignance;
+import com.teamcerulean.malignance.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,7 +19,17 @@ public class ModItemGroups {
                         entries.add(ModItems.CERULEAN_DUST);
                         entries.add(ModItems.FRAGMENTED_DUST);
                         entries.add(ModItems.STELLAR_ESSENCE);
+                        entries.add(ModItems.SUN_TALISMAN);
+                        entries.add(ModItems.EFFIGY);
                         entries.add(ModItems.BUNDLE_OF_DUST);
+                        entries.add(ModItems.CHOCOLATE_BAR);
+
+                        entries.add(ModBlocks.BLOCK_OF_CERULEAN);
+                        entries.add(ModBlocks.CERULEAN_BRICKS);
+                        entries.add(ModBlocks.CERULEAN_ORE);
+                        entries.add(ModBlocks.BLOCK_OF_CHOCOLATE);
+                        entries.add(ModBlocks.BLOCK_OF_STELLAR_ESSENCE);
+
                     }).build());
 
     public static void registerItemGroups() {

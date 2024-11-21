@@ -5,7 +5,13 @@
   "item.malignance.stellar_essence": "Stellar Essence",
   "item.malignance.fragmented_dust": "Fragmented Dust",
   "item.malignance.bundle_of_dust": "Bundle of Dust",
+  "item.malignance.effigy": "Effigy",
+  "item.malignance.sun_talisman": "Sun Talisman",
+  "item.malignance.chocolate_bar": "Chocolate Bar",
 
   "block.malignance.block_of_stellar_essence": "Block of Stellar Essence",
-  "block.malignance.block_of_cerulean": "Block of Cerulean"
+  "block.malignance.block_of_cerulean": "Block of Cerulean",
+  "block.malignance.cerulean_bricks": "Cerulean Bricks",
+  "block.malignance.block_of_chocolate": "Block of Chocolate",
+  "block.malignance.cerulean_ore": "Cerulean Ore"
 }

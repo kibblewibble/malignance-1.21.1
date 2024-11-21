@@ -19,12 +19,31 @@ public class ModBlocks {
                     .requiresTool()
                     .strength(3.0F, 6.0F)
                     .sounds(BlockSoundGroup.METAL)));
+
     public static final Block BLOCK_OF_CERULEAN = registerBlock("block_of_cerulean",
             new Block(AbstractBlock.Settings.create()
                     .mapColor(MapColor.LIGHT_BLUE)
                     .requiresTool()
                     .strength(30.0F, 1200.0F)
                     .sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
+
+    public static final Block CERULEAN_BRICKS = registerBlock("cerulean_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.LIGHT_BLUE)
+                    .requiresTool()
+                    .strength(1.5f, 6.0f)));
+
+    public static final Block BLOCK_OF_CHOCOLATE = registerBlock("block_of_chocolate",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BROWN)
+                    .requiresTool()
+                    .strength(1.5f, 5.0f)));
+
+    public static final Block CERULEAN_ORE = registerBlock("cerulean_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.STONE_GRAY)
+                    .requiresTool()
+                    .strength(3.0f, 3.0f)));
 
     //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-//
 
