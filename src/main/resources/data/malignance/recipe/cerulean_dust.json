@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients":[
+    {
+      "item": "malignance:block_of_cerulean"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "malignance:cerulean_dust"
+  }
+}
