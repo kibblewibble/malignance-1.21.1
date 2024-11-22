@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "malignance:block_of_chocolate",
+    "malignance:block_of_stellar_essence",
+    "malignance:cerulean_bricks",
+    "malignance:block_of_cerulean",
+    "malignance:cerulean_ore"
+  ]
+}

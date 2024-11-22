@@ -3,6 +3,7 @@ package com.teamcerulean.malignance.block;
 import com.teamcerulean.malignance.Malignance;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -10,6 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -24,7 +26,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create()
                     .mapColor(MapColor.LIGHT_BLUE)
                     .requiresTool()
-                    .strength(30.0F, 1200.0F)
+                    .strength(3.0F, 6.0F)
                     .sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
     public static final Block CERULEAN_BRICKS = registerBlock("cerulean_bricks",
@@ -40,7 +42,8 @@ public class ModBlocks {
                     .strength(1.5f, 5.0f)));
 
     public static final Block CERULEAN_ORE = registerBlock("cerulean_ore",
-            new Block(AbstractBlock.Settings.create()
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+            AbstractBlock.Settings.create()
                     .mapColor(MapColor.STONE_GRAY)
                     .requiresTool()
                     .strength(3.0f, 3.0f)));
