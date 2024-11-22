@@ -1,15 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "key": {
-    "#": {
-      "item": "malignance:cerulean_dust"
-    }
-  },
   "pattern": [
     "##",
     "##"
   ],
+  "key": {
+    "#": "malignance:cerulean_dust"
+  },
   "result": {
     "count": 1,
     "id": "malignance:block_of_cerulean"

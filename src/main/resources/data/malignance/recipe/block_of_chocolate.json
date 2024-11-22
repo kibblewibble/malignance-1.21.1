@@ -1,0 +1,38 @@
+{
+"type": "minecraft:crafting_shapeless",
+"category": "food",
+"ingredients":[
+  {
+    "item": "malignance:chocolate_bar"
+  },
+  {
+    "item": "malignance:chocolate_bar"
+  },
+  {
+    "item": "malignance:chocolate_bar"
+  },
+  {
+    "item": "malignance:chocolate_bar"
+  },
+  {
+    "item": "malignance:chocolate_bar"
+  },
+  {
+    "item": "malignance:chocolate_bar"
+  },
+  {
+    "item": "malignance:chocolate_bar"
+  },
+  {
+    "item": "malignance:chocolate_bar"
+  },
+  {
+    "item": "malignance:chocolate_bar"
+  }
+
+],
+"result": {
+"count": 1,
+"id": "malignance:block_of_chocolate"
+}
+}

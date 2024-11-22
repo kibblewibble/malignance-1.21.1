@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients":[
+    {
+      "item": "malignance:block_of_chocolate"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "malignance:chocolate_bar"
+  }
+}

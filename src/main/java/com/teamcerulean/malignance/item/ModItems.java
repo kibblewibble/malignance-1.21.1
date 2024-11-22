@@ -30,5 +30,6 @@ public class ModItems {
             entries.add(STELLAR_ESSENCE);
             entries.add(FRAGMENTED_DUST);
             entries.add(BUNDLE_OF_DUST);
+            entries.add(CHOCOLATE_BAR);
     });
 }}
